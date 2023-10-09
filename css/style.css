@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+body{
+    background-color:#010001;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 4px 4px 10px rgba(79, 78, 78, 0.8);
+    margin: 100px 0;
+}
+
+/* nav */
+.bg-gris{
+    background-color: #161616;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.nav-link:hover{
+    color: rgb(171, 171, 171);
+    border-radius: .1px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+nav img{
+    width: 150px;
+    padding: 10px;
+}
+
+
+/*noticias*/
+.noticias{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.noticias .card{
+    width: 20rem;
+    height: auto;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+.noticias .card img{
+    height: 20rem;
+    padding: 5px;
+    border-radius: 14px;
+}
+.musica{
+    margin: 2rem 0;
+}
+.musica .card{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: #161616;
+    color: white;
+}
+
+.musica img{
+    border-radius: 14px;
+    padding: 5px;
+}
+
+.videos .ratio{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*FORMULARIO*/
+
+.contacto{
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contacto input, textarea{
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgb(134, 134, 134);
+    border-radius: 5px;
+}
+
+.contacto button{
+    width: 20%;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #929292;
+    border-radius: 5px;
+}
+
+.contacto button:hover{
+    background-color: #97F20B;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #161616;
+}
+
+footer p{
+    color: white;
+    width: 33%;
+    margin-top: 10px;
+}
+
+footer .redes{
+    color: white;
+    width: 50%;
+}
+
+footer .redes img{
+    width: 40px;
+    margin-left: 80px;
+}
+
+footer img{
+    width: 40px;
+}
+
+@media (width < 768px) {
+
+    .navbar-toggler{
+        background-color: rgb(236, 233, 233);
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin: 50px 0 20px 0;
+    }
+
+    .noticias{
+        flex-direction: column;
+    }
+    .noticias .card{
+        width: 16rem;
+        margin: 20px 0;
+    }
+    
+    .musica{
+        margin: 2rem 0;
+    }
+    .musica .card{
+        width: 16rem;
+    }
+    
+    /*FORMULARIO*/
+    
+    .contacto{
+        width: 90%;
+        display: block;
+        margin: 15px auto;
+    }
+    
+    .contacto input, textarea{
+        width: 90%;
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    .contacto button{
+        width: 30%;
+        margin: 5px;
+    }
+    
+    .contacto button:hover{
+        background-color: #97F20B;
+        font-weight: bold;
+    }
+    
+    footer{
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+    
+    footer p{
+        display: none;
+    }
+    
+    footer .redes{
+        width: 90%;
+    }
+    
+    footer .redes img{
+        width: 35px;
+        margin-top: 0;
+        margin-left: 65px;
+    }
+    
+    footer img{
+        margin-top: 30px;
+        width: 45px;
+    }
+
+}

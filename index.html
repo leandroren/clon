@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Titulo de la Banda</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-gris">
+            <div class="container">
+                    <a class="navbar-brand" href="#inicio" id="logo"><img src="./img/Divididos-logo-7167ED2516-seeklogo.com.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#noticias">Conciertos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#musica">Música</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#videos">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+        <!-- Carousel -->
+        <div id="inicio" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/214e1d0e-bfff-465e-9132-5bead73c5bf4_16-9-aspect-ratio_default_0.jpg" alt="Los Angeles" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Divididos.jpg" alt="Chicago" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/ea7096252a4cb219d3b7b4dd04afabf9.jpg" alt="New York" class="d-block w-100">
+                </div>
+            </div>
+        </div>
+
+
+        <main class="container">
+        <section id="noticias">
+            <!--Noticias-->
+            <h2><strong> PRÓXIMAS FECHAS:</strong></h2>
+            <article class="noticias">
+                <div class="card">
+                    <img src="./img/1653533100_divididos-desktop.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img/40463393_319235802182785_1091365685428224000_n.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img/69b8c3ad7dc00f9571fb3c59e083a6cb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </article>
+
+        <section class="musica" id="musica">
+            <h2><strong> ESCUCHANOS</strong></h2>            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./img/d0a40067afad74b7f38dc009fe49bcfd.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h3 class="card-title">Divididos</h3>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6ZIgPKHzpcswB8zh7sRIhx?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+
+
+        <section class="videos" id="videos">
+            <h2><strong> VÍDEOS</strong></h2>
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/TF205_8t5Hc?si=_Qoz894ppzcHbs3u" title="YouTube video" allowfullscreen></iframe>
+            </div>
+        </section> 
+
+        <section class="videos">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/1m2ef0IxU80?si=RpR0Sani1orRE4V2" title="YouTube video" allowfullscreen></iframe>
+            </div>
+        </section> 
+
+        <section id="contacto" class="contacto">
+            <form action="">
+                <h2><strong> CONTACTANOS</strong></h2>
+                    <input type="text" name="" placeholder="Nombre" required maxlength="70"><br/>
+                    <input type="text" name="" placeholder="Apellido" required maxlength="70"><br/>
+                    <input type="email" name="" placeholder="Email" required maxlength="70"><br/>
+                    <textarea cols="30" rows="6" placeholder="Mensaje" required maxlength="500"></textarea><br/>
+                    <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 - Ren Leandro. Todos los derechos reservados.</p>
+        <div class="redes">
+            <a href="https://open.spotify.com/intl-es/artist/6ZIgPKHzpcswB8zh7sRIhx"><img src="./img/logos/spotify-color-svgrepo-com.svg" alt="spotify"></a>
+            <a href="https://www.youtube.com/@divididosoficial"><img src="./img/logos/youtube-color-svgrepo-com.svg" alt=""></a>  
+        </div>
+            <a href="#logo"><img src="./img/logos/top-circle-svgrepo-com.svg" alt="boton hacia arriba"></a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
