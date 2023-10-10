@@ -23,4 +23,5 @@ Agradezco a la banda DIVIDIDOS por proporcionar la inspiración para este proyec
 Agradezco a Bootstrap para facilitar el desarrollo web.
 Agradezco a todos los recursos en línea que me ayudaránon a aprender y mejorar mis habilidades de desarrollo web.
 
-## Página web: https://leandroren.github.io/clon/
+### Página web: https://leandroren.github.io/clon/
+### Repositorio Github: https://github.com/leandroren/clon
