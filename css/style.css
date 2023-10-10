@@ -116,7 +116,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px 10px;
+    padding: 10px 5px;
     background-color: #161616;
 }
 
@@ -155,7 +155,7 @@ footer img{
         flex-direction: column;
     }
     .noticias .card{
-        width: 16rem;
+        width: 18rem;
         margin: 20px 0;
     }
     
@@ -163,7 +163,12 @@ footer img{
         margin: 2rem 0;
     }
     .musica .card{
-        width: 16rem;
+        width: 100%;
+    }
+
+    .videos .ratio{
+        width: 100%;
+        margin: 10px 0;
     }
     
     /*FORMULARIO*/
@@ -190,28 +195,22 @@ footer img{
         font-weight: bold;
     }
     
-    footer{
-        flex-direction: column;
-        padding: 15px 10px;
-    }
-    
     footer p{
         display: none;
     }
     
+
     footer .redes{
-        width: 90%;
+        width: 80%;
     }
     
     footer .redes img{
         width: 35px;
-        margin-top: 0;
-        margin-left: 65px;
+        margin-left: 20.5%;
     }
     
     footer img{
-        margin-top: 30px;
-        width: 45px;
+        width: 40px;
     }
 
 }
